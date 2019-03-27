@@ -1,0 +1,173 @@
+.switch {
+
+  position: relative;
+
+  display: inline-block;
+
+  width: 60px;
+
+  height: 34px;
+
+}
+
+
+
+/* Hide default HTML checkbox */
+
+.switch input {display:none !important;}
+
+
+
+/* The switch_slider */
+
+.switch_slider {
+
+  position: absolute;
+
+  cursor: pointer;
+
+  top: 0;
+
+  left: 0;
+
+  right: 0;
+
+  bottom: 0;
+
+  background-color: #ccc;
+
+  -webkit-transition: .4s;
+
+  transition: .4s;
+
+}
+
+
+
+.switch_slider:before {
+
+  position: absolute;
+
+  content: "";
+
+  height: 26px;
+
+  width: 26px;
+
+  left: 4px;
+
+  bottom: 4px;
+
+  background-color: white;
+
+  -webkit-transition: .4s;
+
+  transition: .4s;
+
+}
+
+
+
+input:checked + .switch_slider {
+
+  background-color: #2196F3;
+
+}
+
+
+
+input:focus + .switch_slider {
+
+  box-shadow: 0 0 1px #2196F3;
+
+}
+
+
+
+input:checked + .switch_slider:before {
+
+  -webkit-transform: translateX(26px);
+
+  -ms-transform: translateX(26px);
+
+  transform: translateX(26px);
+
+}
+
+
+
+/* Rounded switch_sliders */
+
+.switch_slider.round {
+
+  border-radius: 34px;
+
+}
+
+
+
+.switch_slider.round:before {
+
+  border-radius: 50%;
+
+}
+
+.search-admin-container .single-continer {
+
+    width: 33%;
+
+    display: inline-block;
+
+	margin-bottom:20px;
+
+}
+
+.search-admin-container .single-continer .continer-label {
+
+    width: 37%;
+
+    display: inline-block;
+	
+	font-weight:600;
+
+}
+.search-admin-container .single-continer .select-container {
+	display:inline-block;
+}
+.search-admin-container .single-continer .select-container select {
+    max-width: 100px;
+}
+
+.search-admin-container .single-continer .check-continer {
+
+    display: inline-block;
+	    margin-right: 30px;
+
+}
+
+#custom-filter-option .single-continer {
+    clear: both;
+	margin: 15px 0px;
+    overflow: hidden;
+}
+#custom-filter-option .single-continer h3 {
+	margin:0px;
+}
+#custom-filter-option .single-continer-heading .single-continer-inner {
+	float: left;
+    width: 20%;
+}
+#custom-filter-option .single-continer .single-continer-inner {
+    float: left;
+    width: 20%;
+}
+#custom-filter-option p.submit {
+    clear: both;
+}
+#custom-filter-option .single-continer-heading {
+    margin: 15px 0px;
+    overflow: hidden;
+}
+.single-continer-inner.attributeId {
+	width:10% !Important;
+}
