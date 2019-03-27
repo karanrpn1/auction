@@ -7,8 +7,9 @@ Author: Karan
 Author URI: http://www.karanrupani.com/
 Version: 1.0
 */
-
+ 
 defined( 'ABSPATH' ) or die( 'Plugin file cannot be accessed directly.' );
+
 
 if (!defined('CUS_SEARCH_THEME_DIR'))
     define('CUS_SEARCH_THEME_DIR', ABSPATH . 'wp-content/themes/' . get_template());
